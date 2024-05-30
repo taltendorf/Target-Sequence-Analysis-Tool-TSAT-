@@ -1,25 +1,25 @@
 1. Clone repository
 
-git clone https://github.com/taltendorf/Target-Sequence-Analysis-Tool-TSAT-.git
+   git clone https://github.com/taltendorf/Target-Sequence-Analysis-Tool-TSAT-.git
 
-3. Install TKinter
+2. Install TKinter
    
-Debian/Ubuntu: sudo apt-get install python3-tk
+   Debian/Ubuntu: sudo apt-get install python3-tk
 
-Fedora: dnf install -y python3-tkinter
+   Fedora: dnf install -y python3-tkinter
 
-Arch: pacman -Syu tk --noconfirm
+   Arch: pacman -Syu tk --noconfirm
 
-REHL/CentosOS: yum install -< python3-tkinter
+   REHL/CentosOS: yum install -< python3-tkinter
 
-OpenSUSE: zypper in -y pyhton-tk
+   OpenSUSE: zypper in -y pyhton-tk
 
-Mac: brew install python-tk
+   Mac: brew install python-tk
 
-5. Install Requirements
+3. Install Requirements
    
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
-7. Run TSAT
+4. Run TSAT
    
-python3 TSAT_Veroeffentlichung.py
+   python3 TSAT_Veroeffentlichung.py

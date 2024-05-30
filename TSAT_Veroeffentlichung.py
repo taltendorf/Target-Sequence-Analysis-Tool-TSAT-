@@ -17,8 +17,11 @@ from TSAT_logo import *
 
 #Main function tkinter
 TA = Tk()
-#Fullscreen
-TA.state("zoomed")
+#Zoomed state
+try:
+    TA.attributes('-zoomed',True)
+except TclError:
+    TA.state('zoomed')
 
 # Titel, Background and weighted growth of window
 TA.title("TSAT")
